@@ -1,0 +1,43 @@
+{
+  "id": "bank-39",
+  "platform": "Reddit",
+  "topic": "Five ways brands make it worse",
+  "tab": "Reddit · 06",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five ways brands make a bad Reddit thread worse"
+    },
+    {
+      "type": "point",
+      "headline": "Replying from the brand account.",
+      "body": "Defensive company replies become the next screenshot."
+    },
+    {
+      "type": "point",
+      "headline": "Alt accounts and upvotes.",
+      "body": "Vote manipulation breaks Reddit's rules, and users love exposing it."
+    },
+    {
+      "type": "point",
+      "headline": "Public legal threats.",
+      "body": "Nothing gets a thread more attention than a lawyer's letter posted in it."
+    },
+    {
+      "type": "point",
+      "headline": "Leaning on moderators.",
+      "body": "Volunteers don't respond well to pressure from companies."
+    },
+    {
+      "type": "point",
+      "headline": "Messaging the poster.",
+      "body": "Expect your message to be posted, word for word."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

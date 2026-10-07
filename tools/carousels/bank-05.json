@@ -1,0 +1,48 @@
+{
+  "id": "bank-05",
+  "platform": "Google",
+  "topic": "Yourself or hire someone?",
+  "tab": "Google · 05",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Fight a bad review yourself, or hire someone? The honest answer."
+    },
+    {
+      "type": "point",
+      "headline": "Do it yourself if:",
+      "body": "it's one obvious spam review, you haven't flagged it yet, and you have a few hours free."
+    },
+    {
+      "type": "point",
+      "headline": "Get help if you've already flagged it and Google said no.",
+      "body": "Your next attempt matters more than the first."
+    },
+    {
+      "type": "point",
+      "headline": "Or if there are several.",
+      "body": "Especially if they arrived together or read the same."
+    },
+    {
+      "type": "point",
+      "headline": "Or if it's costing you work.",
+      "body": "Top of your profile, in front of every new inquiry, every week."
+    },
+    {
+      "type": "point",
+      "headline": "Or if your time is worth more than the fee.",
+      "body": "For most owners running the business day to day, it is."
+    },
+    {
+      "type": "point",
+      "headline": "Either way: don't reply angry.",
+      "body": "Every future customer reads your reply before they read anything else."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "bank-37",
+  "platform": "Reddit",
+  "topic": "Signs it isn't organic",
+  "tab": "Reddit · 04",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "6 signs that Reddit thread about your brand isn't organic"
+    },
+    {
+      "type": "point",
+      "headline": "The account is brand new.",
+      "body": "Created the week it posted."
+    },
+    {
+      "type": "point",
+      "headline": "It only ever talks about you.",
+      "body": "No other history."
+    },
+    {
+      "type": "point",
+      "headline": "It hit several subreddits at once.",
+      "body": "Same post, same day."
+    },
+    {
+      "type": "point",
+      "headline": "The comments recommend one alternative.",
+      "body": "Again and again."
+    },
+    {
+      "type": "point",
+      "headline": "The supporters are new accounts too.",
+      "body": "Agreeing within minutes."
+    },
+    {
+      "type": "point",
+      "headline": "The timing is convenient.",
+      "body": "Right after your launch, your raise or your press."
+    },
+    {
+      "type": "point",
+      "headline": "Two or more of these? It's worth a second look."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "bank-41",
+  "platform": "Reddit",
+  "topic": "What one thread costs",
+  "tab": "Reddit · 08",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "What one Reddit thread is quietly costing your brand"
+    },
+    {
+      "type": "point",
+      "headline": "Search clicks.",
+      "body": "People who searched for you read the thread instead."
+    },
+    {
+      "type": "point",
+      "headline": "Sales calls.",
+      "body": "Prospects bring it up, and now you're defending instead of selling."
+    },
+    {
+      "type": "point",
+      "headline": "Conversion.",
+      "body": "Buyers who read it before checkout often don't come back."
+    },
+    {
+      "type": "point",
+      "headline": "Hiring.",
+      "body": "Candidates search you too."
+    },
+    {
+      "type": "point",
+      "headline": "Partners and investors.",
+      "body": "It turns up in every bit of due diligence."
+    },
+    {
+      "type": "point",
+      "headline": "It doesn't expire.",
+      "body": "The cost repeats every month it ranks."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

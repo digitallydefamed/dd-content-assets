@@ -1,0 +1,43 @@
+{
+  "id": "bank-33",
+  "platform": "Glassdoor",
+  "topic": "Five ways employers make it worse",
+  "tab": "Glassdoor · 10",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five ways employers make a bad Glassdoor review worse"
+    },
+    {
+      "type": "point",
+      "headline": "Pushing staff for 5-stars.",
+      "body": "It reads as forced, and Glassdoor's rules restrict it."
+    },
+    {
+      "type": "point",
+      "headline": "Trying to find out who wrote it.",
+      "body": "Legal risk, and a story if it gets out."
+    },
+    {
+      "type": "point",
+      "headline": "Replying with the backstory.",
+      "body": "Why they left is not the public's business, or yours to share."
+    },
+    {
+      "type": "point",
+      "headline": "Threatening legal action in public.",
+      "body": "It draws more attention to the review than the review ever got."
+    },
+    {
+      "type": "point",
+      "headline": "Ignoring it for a year.",
+      "body": "Every candidate in that year read it."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

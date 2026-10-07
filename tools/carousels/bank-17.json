@@ -1,0 +1,48 @@
+{
+  "id": "bank-17",
+  "platform": "Trustpilot",
+  "topic": "Who leaves fake reviews",
+  "tab": "Trustpilot · 04",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Six people who leave fake Trustpilot reviews"
+    },
+    {
+      "type": "point",
+      "headline": "The competitor.",
+      "body": "Vague, angry, and suspiciously keen to mention an alternative."
+    },
+    {
+      "type": "point",
+      "headline": "The affiliate.",
+      "body": "Earns commission on a rival, so your bad score is their good month."
+    },
+    {
+      "type": "point",
+      "headline": "The ex-employee.",
+      "body": "Knows how things run inside, describes no order."
+    },
+    {
+      "type": "point",
+      "headline": "The refund chaser.",
+      "body": "Uses a review as leverage after a disputed chargeback."
+    },
+    {
+      "type": "point",
+      "headline": "The extortionist.",
+      "body": "Posts a wave of 1-stars, then offers to stop for a fee. Never pay. Screenshot everything."
+    },
+    {
+      "type": "point",
+      "headline": "The wrong-brand reviewer.",
+      "body": "Real problem, similar name, different company."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

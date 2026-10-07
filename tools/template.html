@@ -5,7 +5,7 @@
 <title>DD carousel template</title>
 <style>
   /* Fonts are loaded from tools/fonts so renders work offline. */
-  @font-face { font-family: "DD Serif"; src: url("fonts/Fraunces-SemiBold.ttf") format("truetype"); font-weight: 600; }
+  @font-face { font-family: "DD Serif"; src: url("fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; }
   @font-face { font-family: "DD Sans"; src: url("fonts/Inter-Regular.otf") format("opentype"); font-weight: 400; }
   @font-face { font-family: "DD Sans"; src: url("fonts/Inter-Medium.otf") format("opentype"); font-weight: 500; }
   @font-face { font-family: "DD Sans"; src: url("fonts/Inter-SemiBold.otf") format("opentype"); font-weight: 600; }
@@ -52,34 +52,38 @@
     font: 500 30px/1 var(--sans); letter-spacing: 0.06em; color: var(--ink);
   }
 
-  .headline { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; }
+  .headline {
+    font-family: var(--serif); font-weight: 600;
+    /* Matches the bank: Fraunces SemiBold at optical size 36, no soft/wonky forms */
+    font-optical-sizing: none; font-variation-settings: "opsz" 36, "SOFT" 0, "WONK" 0;
+  }
   .rule { background: var(--red); }
 
   /* Hook: big headline from the top */
   .hook .content { position: absolute; left: var(--margin); right: var(--margin); top: 236px; }
-  .hook .headline { font-size: 98px; line-height: 108px; }
-  .hook .rule { width: 180px; height: 14px; margin-top: 64px; }
+  .hook .headline { font-size: 100px; line-height: 108px; }
+  .hook .rule { width: 180px; height: 14px; margin-top: 57px; }
 
   /* Point: headline + optional body, centred vertically */
   .point .content {
-    position: absolute; left: var(--margin); right: var(--margin); top: 180px; bottom: 200px;
+    position: absolute; left: var(--margin); right: var(--margin); top: 184px; bottom: 196px;
     display: flex; flex-direction: column; justify-content: center;
   }
-  .point .headline { font-size: 72px; line-height: 84px; }
-  .point .rule { width: 120px; height: 10px; margin-top: 50px; }
-  .point .body { margin-top: 50px; font: 400 44px/64px var(--sans); color: var(--body); }
+  .point .headline { font-size: 72px; line-height: 80px; }
+  .point .rule { width: 120px; height: 10px; margin-top: 44px; }
+  .point .body { margin-top: 43px; font: 400 44px/64px var(--sans); color: var(--body); }
   .point .body p + p { margin-top: 24px; }
 
   /* CTA: dark, mark + headline + button */
   .cta .content { position: absolute; left: var(--margin); right: var(--margin); top: 280px; }
   .cta .mark { width: 150px; display: block; }
-  .cta .headline { margin-top: 62px; font-size: 80px; line-height: 96px; color: var(--paper); }
+  .cta .headline { margin-top: 57px; font-size: 88px; line-height: 94px; color: var(--paper); }
   .cta .button {
-    display: inline-block; margin-top: 66px; padding: 0 44px; height: 114px;
+    display: inline-block; margin-top: 63px; padding: 0 44px; height: 114px;
     background: var(--red); color: #fff; border-radius: 6px;
     font: 600 48px/114px var(--sans);
   }
-  .cta .sub { margin-top: 60px; font: 400 40px/1.4 var(--sans); color: var(--paper-dim); }
+  .cta .sub { margin-top: 56px; font: 400 40px/1.4 var(--sans); color: var(--paper-dim); }
 
   /* Optional slide counter (off by default; the bank doesn't use one) */
   .counter { position: absolute; right: 100px; bottom: 103px; font: 500 26px/1 var(--sans); color: var(--muted); letter-spacing: 0.06em; }
@@ -91,6 +95,8 @@
 <script>
   // Called by render.py with the carousel spec. Builds one .slide per entry.
   function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+  // Keep hyphenated words (ex-employee, 1-star) on one line.
+  function text(s) { return esc(s).replace(/(\S*\w-\w\S*)/g, '<span style="white-space:nowrap">$1</span>'); }
   function build(spec) {
     const out = document.getElementById("out"); out.innerHTML = "";
     const n = spec.slides.length;
@@ -101,21 +107,21 @@
       el.dataset.index = i + 1;
       let html = `<div class="tab">${esc(spec.tab)}</div><div class="content">`;
       if (s.type === "hook") {
-        html += `<h1 class="headline">${esc(s.headline)}</h1><div class="rule"></div>`;
+        html += `<h1 class="headline">${text(s.headline)}</h1><div class="rule"></div>`;
       } else if (s.type === "point") {
-        html += `<h2 class="headline">${esc(s.headline)}</h2><div class="rule"></div>`;
-        if (s.body) html += `<div class="body">${[].concat(s.body).map(p => `<p>${esc(p)}</p>`).join("")}</div>`;
+        html += `<h2 class="headline">${text(s.headline)}</h2><div class="rule"></div>`;
+        if (s.body) html += `<div class="body">${[].concat(s.body).map(p => `<p>${text(p)}</p>`).join("")}</div>`;
       } else if (s.type === "cta") {
         html += `<img class="mark" src="assets/mark-red.png" alt="">`;
-        html += `<h2 class="headline">${esc(s.headline)}</h2>`;
+        html += `<h2 class="headline">${text(s.headline)}</h2>`;
         html += `<div class="button">${esc(s.button)}</div>`;
-        if (s.sub) html += `<p class="sub">${esc(s.sub)}</p>`;
+        if (s.sub) html += `<p class="sub">${text(s.sub)}</p>`;
       } else {
         throw new Error(`Slide ${i + 1}: unknown type "${s.type}"`);
       }
       html += `</div>`;
       html += `<img class="wordmark" src="assets/${dark ? "wordmark-paper" : "wordmark-ink"}.png" alt="Digitally Defamed.">`;
-      if (s.type === "hook") html += `<div class="swipe">Swipe &rarr;</div>`;
+      if (s.type === "hook") html += `<div class="swipe">Swipe <span style="font-weight:400">&rarr;</span></div>`;
       else if (spec.counter) html += `<div class="counter">${i + 1}/${n}</div>`;
       el.innerHTML = html;
       out.appendChild(el);

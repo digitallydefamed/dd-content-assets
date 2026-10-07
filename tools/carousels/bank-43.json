@@ -1,0 +1,42 @@
+{
+  "id": "bank-43",
+  "platform": "Reddit",
+  "topic": "Sometimes it's one comment",
+  "tab": "Reddit · 10",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "It isn't always the post. Sometimes it's one comment."
+    },
+    {
+      "type": "point",
+      "headline": "A huge thread can be mostly harmless.",
+      "body": "Except for one line."
+    },
+    {
+      "type": "point",
+      "headline": "That line can be the bit Google shows.",
+      "body": "Pulled into the search snippet, under your brand name."
+    },
+    {
+      "type": "point",
+      "headline": "It's what people screenshot and share.",
+      "body": "One comment can travel further than the post it sits in."
+    },
+    {
+      "type": "point",
+      "headline": "We handle comments as well as posts.",
+      "body": "Removing one comment is sometimes enough."
+    },
+    {
+      "type": "point",
+      "headline": "And you only pay if it's gone."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

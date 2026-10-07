@@ -19,7 +19,7 @@ from playwright.sync_api import sync_playwright
 
 TOOLS = Path(__file__).resolve().parent
 TEMPLATE = TOOLS / "template.html"
-SERIF = TOOLS / "fonts" / "Fraunces-SemiBold.ttf"
+SERIF = TOOLS / "fonts" / "Fraunces-Variable.ttf"
 
 # Hard content rules from the DD content spec. A hit fails the render.
 BANNED = [
@@ -68,7 +68,9 @@ def lint(spec):
         warnings.append(f"{len(slides)} slides; new carousels should have 7-9")
     for where, t in texts(spec):
         for pat, label in BANNED:
-            if re.search(pat, t, re.I):
+            # Brackets inside quotation marks are example search phrases ("[your brand] reviews"), not placeholders.
+            target = re.sub(r"“[^”]*”", "", t) if "placeholder" in label else t
+            if re.search(pat, target, re.I):
                 errors.append(f"{where}: contains {label}: {t!r}")
         for w in EXTRA_BANNED:
             if w.lower() in t.lower():

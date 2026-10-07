@@ -1,0 +1,38 @@
+{
+  "id": "bank-28",
+  "platform": "Glassdoor",
+  "topic": "A review names your team",
+  "tab": "Glassdoor · 05",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "When a Glassdoor review names someone on your team"
+    },
+    {
+      "type": "point",
+      "headline": "It stops being a company problem.",
+      "body": "It's personal for the person named, and it follows them."
+    },
+    {
+      "type": "point",
+      "headline": "It affects retention.",
+      "body": "Good managers leave over reviews that make them searchable for the wrong reasons."
+    },
+    {
+      "type": "point",
+      "headline": "Don't reply by naming anyone back.",
+      "body": "Or explaining what happened between them."
+    },
+    {
+      "type": "point",
+      "headline": "Talk to the person named first.",
+      "body": "Then send the review to us."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

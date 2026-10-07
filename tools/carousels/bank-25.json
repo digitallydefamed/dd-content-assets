@@ -1,0 +1,47 @@
+{
+  "id": "bank-25",
+  "platform": "Glassdoor",
+  "topic": "What one review costs",
+  "tab": "Glassdoor · 02",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "What one bad Glassdoor review costs a hiring team"
+    },
+    {
+      "type": "point",
+      "headline": "Fewer applicants.",
+      "body": "Some good candidates never apply, and you'll never know they looked."
+    },
+    {
+      "type": "point",
+      "headline": "Declined offers.",
+      "body": "The search restarts, often weeks later."
+    },
+    {
+      "type": "point",
+      "headline": "Higher salaries.",
+      "body": "Candidates price in the risk they think they're taking."
+    },
+    {
+      "type": "point",
+      "headline": "One declined senior offer.",
+      "body": "It can mean paying a recruiter to run the whole search again."
+    },
+    {
+      "type": "point",
+      "headline": "Run it on your own numbers.",
+      "body": "Your cost per hire x offers lost this year."
+    },
+    {
+      "type": "point",
+      "headline": "Removal is a one-off cost. The review recruits against you every day."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

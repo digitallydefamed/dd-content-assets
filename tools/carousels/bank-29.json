@@ -1,0 +1,47 @@
+{
+  "id": "bank-29",
+  "platform": "Glassdoor",
+  "topic": "How to reply",
+  "tab": "Glassdoor · 06",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "How to reply to a bad Glassdoor review without making it worse"
+    },
+    {
+      "type": "point",
+      "headline": "Write for the candidate, not the reviewer.",
+      "body": "The person you're convincing is the one reading next week."
+    },
+    {
+      "type": "point",
+      "headline": "Thank them. Don't argue.",
+      "body": "Defensive replies confirm the review."
+    },
+    {
+      "type": "point",
+      "headline": "Never reveal employment details.",
+      "body": "Why someone left, their performance, their pay — none of it goes in a public reply."
+    },
+    {
+      "type": "point",
+      "headline": "Never guess who wrote it.",
+      "body": "Even hinting at an identity is a privacy and legal risk."
+    },
+    {
+      "type": "point",
+      "headline": "Point to what's changed.",
+      "body": "One concrete thing you've fixed beats a paragraph of values."
+    },
+    {
+      "type": "point",
+      "headline": "And if it shouldn't be there at all, don't reply. Send it to us."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

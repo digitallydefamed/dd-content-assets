@@ -1,0 +1,48 @@
+{
+  "id": "bank-03",
+  "platform": "Google",
+  "topic": "Paid only when it's gone",
+  "tab": "Google · 03",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "We don't get paid until your review is gone. Here's why."
+    },
+    {
+      "type": "point",
+      "headline": "Paying up front puts the risk on you.",
+      "body": "If nothing happens, you're the one out of pocket."
+    },
+    {
+      "type": "point",
+      "headline": "We flip that.",
+      "body": "You pay once the review is gone. No deposit, no setup fee."
+    },
+    {
+      "type": "point",
+      "headline": "It keeps us honest about what we take on.",
+      "body": "A case that doesn't come down costs us, not you."
+    },
+    {
+      "type": "point",
+      "headline": "It keeps us moving.",
+      "body": "We aren't paid for effort. Only for the result."
+    },
+    {
+      "type": "point",
+      "headline": "What you agree to up front:",
+      "body": "a written agreement and a fixed fee. Nothing is charged until it's done."
+    },
+    {
+      "type": "point",
+      "headline": "We confirm it's gone before you're charged.",
+      "body": "And you can see it for yourself on the page."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

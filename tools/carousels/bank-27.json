@@ -1,0 +1,48 @@
+{
+  "id": "bank-27",
+  "platform": "Glassdoor",
+  "topic": "One ex-employee, five reviews",
+  "tab": "Glassdoor · 04",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "One unhappy ex-employee. Five 1-star reviews."
+    },
+    {
+      "type": "point",
+      "headline": "Glassdoor is anonymous.",
+      "body": "That makes repeat posting hard to spot from the outside."
+    },
+    {
+      "type": "point",
+      "headline": "The tells are in the writing.",
+      "body": "The same complaint, the same phrases, slightly different job titles."
+    },
+    {
+      "type": "point",
+      "headline": "They cluster.",
+      "body": "Usually within weeks of one difficult exit."
+    },
+    {
+      "type": "point",
+      "headline": "Small companies feel it most.",
+      "body": "With 20 reviews, five from one person can rewrite your rating."
+    },
+    {
+      "type": "point",
+      "headline": "Don't try to unmask them.",
+      "body": "Hunting for an anonymous reviewer can create legal exposure and looks terrible if it surfaces."
+    },
+    {
+      "type": "point",
+      "headline": "Send it to people who handle this instead.",
+      "body": "That's us."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

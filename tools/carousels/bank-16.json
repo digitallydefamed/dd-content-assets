@@ -1,0 +1,52 @@
+{
+  "id": "bank-16",
+  "platform": "Trustpilot",
+  "topic": "Six signs",
+  "tab": "Trustpilot · 03",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "6 signs that Trustpilot review wasn't left by a customer"
+    },
+    {
+      "type": "point",
+      "headline": "No order matches.",
+      "body": "Not the name, not the email, not the date."
+    },
+    {
+      "type": "point",
+      "headline": "They complain about something you don't sell.",
+      "body": "A product, plan or feature that has never existed."
+    },
+    {
+      "type": "point",
+      "headline": "Wrong country.",
+      "body": "A delivery complaint from somewhere you don't ship to."
+    },
+    {
+      "type": "point",
+      "headline": "The account is brand new.",
+      "body": "One review, posted the day it was created."
+    },
+    {
+      "type": "point",
+      "headline": "It came in a wave.",
+      "body": "Several 1-stars in 48 hours after weeks of quiet."
+    },
+    {
+      "type": "point",
+      "headline": "They love your competitor.",
+      "body": "Five stars for the brand you lose deals to."
+    },
+    {
+      "type": "point",
+      "headline": "Two or more of these? It's worth a second look."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

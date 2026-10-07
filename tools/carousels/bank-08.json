@@ -1,0 +1,49 @@
+{
+  "id": "bank-08",
+  "platform": "Google",
+  "topic": "Case file (TEMPLATE — needs consent)",
+  "tab": "Case file · Google",
+  "hold": "Case-file template: needs a real case with written client consent.",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "CASE FILE: [industry], [state]. A 1-star from someone who was never there."
+    },
+    {
+      "type": "point",
+      "headline": "The situation.",
+      "body": "[Business type, years trading, rating before.] Names redacted."
+    },
+    {
+      "type": "point",
+      "headline": "What the review claimed.",
+      "body": "[One-line paraphrase. Never the review's own words.]"
+    },
+    {
+      "type": "point",
+      "headline": "Why it qualified.",
+      "body": "[The policy ground in one plain sentence.]"
+    },
+    {
+      "type": "point",
+      "headline": "What the owner tried first.",
+      "body": "[e.g. flagged it twice, heard nothing.]"
+    },
+    {
+      "type": "point",
+      "headline": "What we did.",
+      "body": "Screened it, built the case, lodged it, watched the listing."
+    },
+    {
+      "type": "point",
+      "headline": "Outcome.",
+      "body": "Removed in [X] days. Rating [before] — [after]."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

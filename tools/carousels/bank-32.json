@@ -1,0 +1,48 @@
+{
+  "id": "bank-32",
+  "platform": "Glassdoor",
+  "topic": "Who's reading your page",
+  "tab": "Glassdoor · 09",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Six people reading your Glassdoor page this week"
+    },
+    {
+      "type": "point",
+      "headline": "The senior hire weighing two offers.",
+      "body": "Yours and the one with the better rating."
+    },
+    {
+      "type": "point",
+      "headline": "The engineer who gets recruiter messages daily.",
+      "body": "They filter fast."
+    },
+    {
+      "type": "point",
+      "headline": "The graduate.",
+      "body": "No network to ask, so reviews are all they've got."
+    },
+    {
+      "type": "point",
+      "headline": "Your current staff.",
+      "body": "Wondering whether everyone else is happier somewhere else."
+    },
+    {
+      "type": "point",
+      "headline": "The investor or acquirer.",
+      "body": "Culture is part of due diligence now."
+    },
+    {
+      "type": "point",
+      "headline": "The journalist.",
+      "body": "Looking for a pattern to quote."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

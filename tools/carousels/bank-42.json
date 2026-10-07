@@ -1,0 +1,48 @@
+{
+  "id": "bank-42",
+  "platform": "Reddit",
+  "topic": "Who it hurts most",
+  "tab": "Reddit · 09",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Six kinds of business where one Reddit thread costs the most"
+    },
+    {
+      "type": "point",
+      "headline": "Direct-to-consumer brands.",
+      "body": "“Is it worth it? reddit” is the last search before buying."
+    },
+    {
+      "type": "point",
+      "headline": "SaaS and apps.",
+      "body": "Recommendation threads decide shortlists."
+    },
+    {
+      "type": "point",
+      "headline": "Agencies and consultants.",
+      "body": "One “avoid” thread outranks your case studies."
+    },
+    {
+      "type": "point",
+      "headline": "Doctors, lawyers and agents.",
+      "body": "Your name is the business."
+    },
+    {
+      "type": "point",
+      "headline": "Founders.",
+      "body": "Threads about the company get personal fast."
+    },
+    {
+      "type": "point",
+      "headline": "Creators and personal brands.",
+      "body": "Reddit is where the criticism gathers."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

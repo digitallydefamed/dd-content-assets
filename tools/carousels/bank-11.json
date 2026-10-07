@@ -1,0 +1,43 @@
+{
+  "id": "bank-11",
+  "platform": "Google",
+  "topic": "Stars before your website",
+  "tab": "Google · 11",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Before anyone sees your website, they've already seen your stars"
+    },
+    {
+      "type": "point",
+      "headline": "Search your own business name.",
+      "body": "The first thing on the page is your rating and a handful of your reviews."
+    },
+    {
+      "type": "point",
+      "headline": "Search “[your service] near me”.",
+      "body": "The map shows three businesses. The stars sit right next to each name."
+    },
+    {
+      "type": "point",
+      "headline": "Google picks which reviews show.",
+      "body": "The default sort is “most relevant”, so one detailed 1-star can sit near the top for months."
+    },
+    {
+      "type": "point",
+      "headline": "Your website never gets its chance.",
+      "body": "Plenty of people decide from that panel alone and call whoever looks safest."
+    },
+    {
+      "type": "point",
+      "headline": "That's why one review can outweigh fifty good ones.",
+      "body": "It isn't about the average. It's about what's visible."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

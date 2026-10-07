@@ -1,0 +1,48 @@
+{
+  "id": "bank-14",
+  "platform": "Trustpilot",
+  "topic": "Brand + reviews search",
+  "tab": "Trustpilot · 01",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Search “[your brand] reviews”. What comes up first?"
+    },
+    {
+      "type": "point",
+      "headline": "Often it's your Trustpilot page.",
+      "body": "For plenty of online brands, it outranks their own site for that search."
+    },
+    {
+      "type": "point",
+      "headline": "The score is right there in the result.",
+      "body": "Stars and a number, before anyone clicks."
+    },
+    {
+      "type": "point",
+      "headline": "That search happens right before they pay.",
+      "body": "“Is this brand legit?” is a checkout question."
+    },
+    {
+      "type": "point",
+      "headline": "Your own widgets show it too.",
+      "body": "If Trustpilot is embedded on your site, a drop shows on every product page."
+    },
+    {
+      "type": "point",
+      "headline": "One coordinated wave can move it.",
+      "body": "Especially when you have hundreds of reviews, not thousands."
+    },
+    {
+      "type": "point",
+      "headline": "More 5-stars won't bury it fast.",
+      "body": "Getting the ones that shouldn't be there taken down will."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

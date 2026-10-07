@@ -1,0 +1,53 @@
+{
+  "id": "bank-06",
+  "platform": "Google",
+  "topic": "Six signs",
+  "tab": "Google · 06",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "6 signs that 1-star wasn't left by a customer"
+    },
+    {
+      "type": "point",
+      "headline": "Their profile is brand new.",
+      "body": "One review, ever — yours."
+    },
+    {
+      "type": "point",
+      "headline": "They review in bulk.",
+      "body": "Dozens of businesses, often in different cities, all within days."
+    },
+    {
+      "type": "point",
+      "headline": "The details are wrong.",
+      "body": "A dish you don't serve, a staff member who doesn't exist, a service you don't offer."
+    },
+    {
+      "type": "point",
+      "headline": "There's no match in your records.",
+      "body": "No booking, invoice or job under that name or on that date."
+    },
+    {
+      "type": "point",
+      "headline": "It arrived with friends.",
+      "body": "Several 1-stars in a few days after months of quiet."
+    },
+    {
+      "type": "point",
+      "headline": "They rave about your competitors.",
+      "body": "Five stars down the road, one star for you."
+    },
+    {
+      "type": "point",
+      "headline": "Two or more of these? It's worth a second look.",
+      "body": "That doesn't mean it's removable. It means it's worth checking."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "bank-04",
+  "platform": "Google",
+  "topic": "Why we won't guarantee",
+  "tab": "Google · 04",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "We won't guarantee your review comes down. Here's why that's good news."
+    },
+    {
+      "type": "point",
+      "headline": "The platform makes the final call.",
+      "body": "Not us, not anyone. A guarantee on an outcome nobody controls is a guess."
+    },
+    {
+      "type": "point",
+      "headline": "What we do control:",
+      "body": "which cases we take, how each one is handled, and how hard we follow it through."
+    },
+    {
+      "type": "point",
+      "headline": "So we carry the risk instead.",
+      "body": "You pay when it's gone. If it stays up, you owe nothing."
+    },
+    {
+      "type": "point",
+      "headline": "Three questions to ask any provider — us included.",
+      "body": "Do you charge before it's removed? What if it doesn't come down? What exactly am I agreeing to pay?"
+    },
+    {
+      "type": "point",
+      "headline": "Vague answers are the red flag.",
+      "body": "Not the lack of a guarantee."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

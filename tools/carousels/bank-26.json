@@ -1,0 +1,51 @@
+{
+  "id": "bank-26",
+  "platform": "Glassdoor",
+  "topic": "Six signs",
+  "tab": "Glassdoor · 03",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "6 signs that Glassdoor review wasn't written by someone who worked for you"
+    },
+    {
+      "type": "point",
+      "headline": "The job title doesn't exist.",
+      "body": "Not now, not ever."
+    },
+    {
+      "type": "point",
+      "headline": "Wrong location.",
+      "body": "An office or site you've never had."
+    },
+    {
+      "type": "point",
+      "headline": "The timeline doesn't fit.",
+      "body": "“Five years here” at a company that's three years old."
+    },
+    {
+      "type": "point",
+      "headline": "It names managers or teams you've never had."
+    },
+    {
+      "type": "point",
+      "headline": "It describes a process you don't run.",
+      "body": "Shifts, tools or policies that were never part of the job."
+    },
+    {
+      "type": "point",
+      "headline": "It sounds like another review word for word.",
+      "body": "Same phrases, same grievances, different title."
+    },
+    {
+      "type": "point",
+      "headline": "Two or more of these? It's worth a second look."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

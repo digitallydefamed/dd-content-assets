@@ -1,0 +1,48 @@
+{
+  "id": "bank-36",
+  "platform": "Reddit",
+  "topic": "Posts that hurt most",
+  "tab": "Reddit · 03",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Six kinds of Reddit post that do the most damage to a brand"
+    },
+    {
+      "type": "point",
+      "headline": "“Is [brand] a scam?”",
+      "body": "The question alone does the damage, whatever the answers say."
+    },
+    {
+      "type": "point",
+      "headline": "The “avoid this company” PSA.",
+      "body": "Written to warn, shared to warn, upvoted to warn."
+    },
+    {
+      "type": "point",
+      "headline": "The screenshot.",
+      "body": "A private email or DM posted without context."
+    },
+    {
+      "type": "point",
+      "headline": "The personal attack.",
+      "body": "Your founder or a staff member named and blamed."
+    },
+    {
+      "type": "point",
+      "headline": "The local recommendation thread.",
+      "body": "“Anyone used [business]?” in a city subreddit."
+    },
+    {
+      "type": "point",
+      "headline": "The buried comment.",
+      "body": "One line in a big thread that ranks on Google."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

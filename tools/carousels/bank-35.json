@@ -1,0 +1,48 @@
+{
+  "id": "bank-35",
+  "platform": "Reddit",
+  "topic": "Not a review site",
+  "tab": "Reddit · 02",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Reddit isn't a review site. That's what makes it harder."
+    },
+    {
+      "type": "point",
+      "headline": "No business profile.",
+      "body": "There's nowhere official for you to respond."
+    },
+    {
+      "type": "point",
+      "headline": "No star rating to recover.",
+      "body": "One thread can define you on its own."
+    },
+    {
+      "type": "point",
+      "headline": "Anonymous accounts.",
+      "body": "Anyone can post, and anyone can pile on."
+    },
+    {
+      "type": "point",
+      "headline": "Every community has its own moderators and rules.",
+      "body": "On top of Reddit's own."
+    },
+    {
+      "type": "point",
+      "headline": "Older threads are often locked.",
+      "body": "You can't even reply."
+    },
+    {
+      "type": "point",
+      "headline": "A brand account replying usually makes it worse.",
+      "body": "Reddit is not kind to companies defending themselves."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

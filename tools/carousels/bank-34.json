@@ -1,0 +1,43 @@
+{
+  "id": "bank-34",
+  "platform": "Reddit",
+  "topic": "Brand + reddit search",
+  "tab": "Reddit · 01",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Search “[your brand] reddit”. That's what your customers are doing."
+    },
+    {
+      "type": "point",
+      "headline": "People add “reddit” to find opinions they trust.",
+      "body": "Not ads, not your site — strangers."
+    },
+    {
+      "type": "point",
+      "headline": "Google surfaces Reddit threads prominently.",
+      "body": "Often above your own pages."
+    },
+    {
+      "type": "point",
+      "headline": "A thread titled “Is [brand] a scam?” can rank for years.",
+      "body": "Even if nobody's commented since."
+    },
+    {
+      "type": "point",
+      "headline": "Old threads don't fade.",
+      "body": "They stay indexed long after the conversation is over."
+    },
+    {
+      "type": "point",
+      "headline": "And you can't edit the title.",
+      "body": "Whatever it says, it keeps saying."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

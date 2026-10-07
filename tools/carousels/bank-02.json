@@ -4,13 +4,45 @@
   "topic": "What happens after you hire us",
   "tab": "Google · 02",
   "slides": [
-    {"type": "hook", "headline": "What actually happens after you hire us, start to finish"},
-    {"type": "point", "headline": "You send the link.", "body": "The review and where it's posted. That's all we need to start."},
-    {"type": "point", "headline": "We tell you straight whether we'll take it.", "body": "Before anything is agreed or signed."},
-    {"type": "point", "headline": "One fixed fee, in writing.", "body": "Agreed per review before work starts. No retainer, no hourly billing."},
-    {"type": "point", "headline": "Our specialists handle every step.", "body": "You never fill in a form or chase anyone."},
-    {"type": "point", "headline": "We watch it for you.", "body": "Platforms rarely send a verdict, so we track it until it's resolved and report back."},
-    {"type": "point", "headline": "You pay when it's gone.", "body": "Not before. If it stays up, you owe nothing."},
-    {"type": "cta", "headline": "Send us the link. We'll tell you if it may have a case.", "button": "DM the word REVIEW", "sub": "You only pay once it's gone."}
+    {
+      "type": "hook",
+      "headline": "What actually happens after you hire us, start to finish"
+    },
+    {
+      "type": "point",
+      "headline": "You send the link.",
+      "body": "The review and where it's posted. That's all we need to start."
+    },
+    {
+      "type": "point",
+      "headline": "We tell you straight whether we'll take it.",
+      "body": "Before anything is agreed or signed."
+    },
+    {
+      "type": "point",
+      "headline": "One fixed fee, in writing.",
+      "body": "Agreed per review before work starts. No retainer, no hourly billing."
+    },
+    {
+      "type": "point",
+      "headline": "Our specialists handle every step.",
+      "body": "You never fill in a form or chase anyone."
+    },
+    {
+      "type": "point",
+      "headline": "We watch it for you.",
+      "body": "Platforms rarely send a verdict, so we track it until it's resolved and report back."
+    },
+    {
+      "type": "point",
+      "headline": "You pay when it's gone.",
+      "body": "Not before. If it stays up, you owe nothing."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
   ]
 }

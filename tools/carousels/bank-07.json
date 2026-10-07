@@ -1,0 +1,48 @@
+{
+  "id": "bank-07",
+  "platform": "Google",
+  "topic": "Five people who leave fake 1-stars",
+  "tab": "Google · 07",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five people who leave fake 1-stars — and how to tell which one you've got"
+    },
+    {
+      "type": "point",
+      "headline": "The competitor.",
+      "body": "A vague complaint with none of the details only a real customer would know."
+    },
+    {
+      "type": "point",
+      "headline": "The ex-employee.",
+      "body": "Knows staff names and how things run inside, but describes no visit or purchase."
+    },
+    {
+      "type": "point",
+      "headline": "The wrong business.",
+      "body": "A real person with a real bad experience — just not with you. Similar name, different part of town."
+    },
+    {
+      "type": "point",
+      "headline": "The extortionist.",
+      "body": "A wave of 1-stars, then a message offering to make them stop for a fee. Never pay. Screenshot everything."
+    },
+    {
+      "type": "point",
+      "headline": "The pile-on.",
+      "body": "A news story or viral post sends strangers to your profile who have never been near you."
+    },
+    {
+      "type": "point",
+      "headline": "Each one breaks a different rule.",
+      "body": "Which one you've got decides how the case is argued. That's the part we handle."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "bank-30",
+  "platform": "Glassdoor",
+  "topic": "How it works",
+  "tab": "Glassdoor · 07",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Getting a Glassdoor review removed with us takes four steps. You do two."
+    },
+    {
+      "type": "point",
+      "headline": "1. You send the link.",
+      "body": "Just the review."
+    },
+    {
+      "type": "point",
+      "headline": "2. You sign the agreement.",
+      "body": "One fixed fee, in writing. No retainer."
+    },
+    {
+      "type": "point",
+      "headline": "3. Our specialists handle the rest.",
+      "body": "Confidentially, start to finish. Nobody at your company has to be involved."
+    },
+    {
+      "type": "point",
+      "headline": "4. It's gone, then you pay.",
+      "body": "We confirm it's off your page first. If it stays up, you owe nothing."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

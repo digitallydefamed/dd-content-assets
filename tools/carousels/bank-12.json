@@ -1,0 +1,44 @@
+{
+  "id": "bank-12",
+  "platform": "Google",
+  "topic": "Our numbers (TEMPLATE — needs case records)",
+  "tab": "Google · 12",
+  "hold": "Results template: needs counts from real case records.",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Our Google results, [month] to [month]. No rounding up."
+    },
+    {
+      "type": "point",
+      "headline": "[N] Google reviews taken on.",
+      "body": "Every case we agreed to work in that period."
+    },
+    {
+      "type": "point",
+      "headline": "[R] removed.",
+      "body": "That's [R ÷ N]% of the cases we took on."
+    },
+    {
+      "type": "point",
+      "headline": "How we count.",
+      "body": "From the day the agreement is signed. Nothing quietly dropped from the total."
+    },
+    {
+      "type": "point",
+      "headline": "Why we show the count, not just the percentage.",
+      "body": "A rate with no number behind it tells you nothing."
+    },
+    {
+      "type": "point",
+      "headline": "And you still only pay when it's gone.",
+      "body": "The number is for confidence. The pay model is your protection."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

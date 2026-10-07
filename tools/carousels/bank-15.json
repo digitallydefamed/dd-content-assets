@@ -1,0 +1,43 @@
+{
+  "id": "bank-15",
+  "platform": "Trustpilot",
+  "topic": "A bad month vs a bad year",
+  "tab": "Trustpilot · 02",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "On Trustpilot, last month's 1-stars matter more than last year's"
+    },
+    {
+      "type": "point",
+      "headline": "Your TrustScore isn't a simple average.",
+      "body": "Trustpilot says it gives more weight to recent reviews."
+    },
+    {
+      "type": "point",
+      "headline": "So timing matters.",
+      "body": "A burst of fake 1-stars this month drags harder than the same number spread over two years."
+    },
+    {
+      "type": "point",
+      "headline": "Waiting it out is slow.",
+      "body": "You need a steady run of new genuine reviews to outweigh them."
+    },
+    {
+      "type": "point",
+      "headline": "Meanwhile, it's on show.",
+      "body": "Every visitor this month sees the dip, not your history."
+    },
+    {
+      "type": "point",
+      "headline": "The time to act is while it's recent.",
+      "body": "That's when it's doing the most damage."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

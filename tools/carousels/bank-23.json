@@ -1,0 +1,43 @@
+{
+  "id": "bank-23",
+  "platform": "Trustpilot",
+  "topic": "Five ways brands make it worse",
+  "tab": "Trustpilot · 10",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five ways brands make a bad Trustpilot review worse"
+    },
+    {
+      "type": "point",
+      "headline": "Arguing in the reply.",
+      "body": "Every future buyer reads it, and they rarely side with the business."
+    },
+    {
+      "type": "point",
+      "headline": "Offering something to change it.",
+      "body": "Incentives to edit or remove a review break Trustpilot's rules."
+    },
+    {
+      "type": "point",
+      "headline": "Buying 5-stars to bury it.",
+      "body": "Trustpilot can put a public warning on your page. That's far worse than one bad review."
+    },
+    {
+      "type": "point",
+      "headline": "Posting the customer's details.",
+      "body": "“Order #4471 was delivered on time” is a privacy problem, not a defense."
+    },
+    {
+      "type": "point",
+      "headline": "Leaving it for months.",
+      "body": "It sits there doing damage, and recent reviews count the most."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

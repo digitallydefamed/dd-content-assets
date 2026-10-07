@@ -1,0 +1,43 @@
+{
+  "id": "bank-40",
+  "platform": "Reddit",
+  "topic": "Honest expectations",
+  "tab": "Reddit · 07",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Not every Reddit thread can come down. Here's how we handle that."
+    },
+    {
+      "type": "point",
+      "headline": "Reddit is harder than review sites.",
+      "body": "More rules, more communities, more moving parts."
+    },
+    {
+      "type": "point",
+      "headline": "We tell you up front whether it's worth working.",
+      "body": "Before anything is signed."
+    },
+    {
+      "type": "point",
+      "headline": "We handle posts and comments.",
+      "body": "Sometimes one comment is the whole problem."
+    },
+    {
+      "type": "point",
+      "headline": "You pay only if it's gone.",
+      "body": "If it stays up, you owe nothing. The risk sits with us."
+    },
+    {
+      "type": "point",
+      "headline": "That's why we don't oversell it.",
+      "body": "We only get paid when it works."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

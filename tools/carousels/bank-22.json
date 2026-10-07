@@ -1,0 +1,43 @@
+{
+  "id": "bank-22",
+  "platform": "Trustpilot",
+  "topic": "Invite or remove?",
+  "tab": "Trustpilot · 09",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "“Just get more good reviews.” Here's why that's only half the answer."
+    },
+    {
+      "type": "point",
+      "headline": "Inviting every customer is the long game.",
+      "body": "It's the right one. Do it."
+    },
+    {
+      "type": "point",
+      "headline": "Every customer — not just the happy ones.",
+      "body": "Cherry-picking who you invite breaks Trustpilot's rules."
+    },
+    {
+      "type": "point",
+      "headline": "But volume is slow.",
+      "body": "It can take months of genuine reviews to outweigh one coordinated wave."
+    },
+    {
+      "type": "point",
+      "headline": "Removal is the short game.",
+      "body": "Reviews that shouldn't be there come down now."
+    },
+    {
+      "type": "point",
+      "headline": "Do both.",
+      "body": "One builds the score. The other stops it being dragged down."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

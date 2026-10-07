@@ -1,0 +1,43 @@
+{
+  "id": "bank-24",
+  "platform": "Glassdoor",
+  "topic": "Your next hire read this first",
+  "tab": "Glassdoor · 01",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Your next hire read your Glassdoor page before they read your job ad"
+    },
+    {
+      "type": "point",
+      "headline": "Candidates check before they apply.",
+      "body": "Your rating and top reviews are part of the decision to click “apply” at all."
+    },
+    {
+      "type": "point",
+      "headline": "They check again before they sign.",
+      "body": "The night before an offer deadline is when one bad review does the most damage."
+    },
+    {
+      "type": "point",
+      "headline": "It shows up in Google too.",
+      "body": "Search your company name plus “reviews” and see what comes back."
+    },
+    {
+      "type": "point",
+      "headline": "A fake 1-star reads like a real one.",
+      "body": "Candidates can't tell, and won't try."
+    },
+    {
+      "type": "point",
+      "headline": "Senior hires check hardest.",
+      "body": "The people with the most options read the most closely."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "bank-18",
+  "platform": "Trustpilot",
+  "topic": "Reply or remove?",
+  "tab": "Trustpilot · 05",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Reply or remove? How to tell with a Trustpilot review"
+    },
+    {
+      "type": "point",
+      "headline": "A real customer with a real problem: reply.",
+      "body": "A calm, specific reply often wins over the next reader."
+    },
+    {
+      "type": "point",
+      "headline": "Keep it short.",
+      "body": "Acknowledge it, say what you've done, offer a direct contact."
+    },
+    {
+      "type": "point",
+      "headline": "Never post order details.",
+      "body": "Their name, address or order number don't belong in a public reply."
+    },
+    {
+      "type": "point",
+      "headline": "A review that shouldn't be there: don't argue with it.",
+      "body": "Public accusations just put more eyes on it."
+    },
+    {
+      "type": "point",
+      "headline": "Don't do both at once.",
+      "body": "A heated reply can make a removal case harder."
+    },
+    {
+      "type": "cta",
+      "headline": "Not sure which one you've got? Send it to us.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bank-31",
+  "platform": "Glassdoor",
+  "topic": "Our numbers (TEMPLATE — needs case records)",
+  "tab": "Glassdoor · 08",
+  "hold": "Results template: needs counts from real case records.",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Our Glassdoor results, [month] to [month]. Every case counted."
+    },
+    {
+      "type": "point",
+      "headline": "[N] Glassdoor reviews taken on.",
+      "body": "Every case we agreed to work."
+    },
+    {
+      "type": "point",
+      "headline": "[R] removed.",
+      "body": "That's [R ÷ N]% of the cases we took on."
+    },
+    {
+      "type": "point",
+      "headline": "How we count.",
+      "body": "From the day the agreement is signed. Nothing quietly dropped."
+    },
+    {
+      "type": "point",
+      "headline": "And you only pay for the [R].",
+      "body": "Cases that stay up cost you nothing."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "bank-10",
+  "platform": "Google",
+  "topic": "Five things we won't do",
+  "tab": "Google · 10",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five things we won't do, even if you ask"
+    },
+    {
+      "type": "point",
+      "headline": "Sell you 5-star reviews.",
+      "body": "Fake reviews break FTC rules in the US and consumer law in Australia. They also get wiped in bulk."
+    },
+    {
+      "type": "point",
+      "headline": "Charge you before it's gone.",
+      "body": "You pay for a result, not an attempt."
+    },
+    {
+      "type": "point",
+      "headline": "Lock you into a retainer.",
+      "body": "You pay per review. Nothing recurring."
+    },
+    {
+      "type": "point",
+      "headline": "Call anything a guarantee.",
+      "body": "The platform makes the final call, and we'll say so."
+    },
+    {
+      "type": "point",
+      "headline": "Use your name.",
+      "body": "Clients are never named, and no case is shared without written consent."
+    },
+    {
+      "type": "point",
+      "headline": "What's left is the work.",
+      "body": "Our specialists take it from the link you send to the day it's gone."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

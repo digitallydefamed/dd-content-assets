@@ -41,7 +41,7 @@ Output: `slide-01.png` … `slide-NN.png` in the `--out` folder.
 - First slide is `hook`, last is `cta`.
 - Text stays inside the 96px side margins and clear of the tab and footer.
 - Point slides aren't overfilled.
-- Hard content rules: no "guaranteed", "we delete", "any review", "permanent", warranties, percentages, unfilled `[placeholders]`, plus any terms in the `DD_BANNED_TERMS` environment variable (comma-separated; kept out of this public repo).
+- Hard content rules: no "guaranteed", "we delete", "any review", "permanent", warranties, percentages, unfilled `[placeholders]` (brackets inside “quotes”, like “[your brand] reviews”, are allowed), plus any terms in the `DD_BANNED_TERMS` environment variable (comma-separated; kept out of this public repo).
 - Non-US spellings (enquiry, maths, defence…) print a `WARN`; fix them before publishing.
 
 These catch mechanical problems only. Every slide still has to be read against the content rules in the DD content spec.
@@ -56,7 +56,7 @@ These catch mechanical problems only. Every slide still has to be read against t
 | Tab text | `#55585E` |
 | Red accent | `#FF3F44` |
 | Dark-slide sub text | `#CFCAC0` |
-| Headlines | Fraunces SemiBold |
+| Headlines | Fraunces SemiBold (wght 600, opsz 36) |
 | Everything else | Inter (Regular 400, Medium 500, SemiBold 600) |
 
 ## Files
@@ -66,7 +66,7 @@ These catch mechanical problems only. Every slide still has to be read against t
 - `assets/`: wordmark (ink and paper versions) and the red mark, extracted from the original bank.
 - `fonts/`: font files, loaded locally so renders don't need the internet.
   - Inter: included.
-  - Fraunces: add `fonts/Fraunces-SemiBold.ttf`. Without it the render stops with an error (or, with `--allow-fallback-font`, produces a test-only render that must not be published).
+  - Fraunces: `Fraunces-Variable.ttf`, used at weight 600, optical size 36. If it's missing the render stops with an error.
 - `carousels/`: carousel specs.
 
 Both fonts are licensed under the SIL Open Font License; see `fonts/LICENSE-*.txt`.

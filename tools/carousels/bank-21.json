@@ -1,0 +1,48 @@
+{
+  "id": "bank-21",
+  "platform": "Trustpilot",
+  "topic": "Who it hurts most",
+  "tab": "Trustpilot · 08",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Six kinds of online business where one Trustpilot review costs the most"
+    },
+    {
+      "type": "point",
+      "headline": "E-commerce brands.",
+      "body": "The buyer is one click from checkout and one tab from your competitor."
+    },
+    {
+      "type": "point",
+      "headline": "SaaS.",
+      "body": "Trials are cheap to start and cheap to abandon after one bad read."
+    },
+    {
+      "type": "point",
+      "headline": "Fintech and payments.",
+      "body": "“Is this a scam?” is the first question anyone asks about their money."
+    },
+    {
+      "type": "point",
+      "headline": "Travel and bookings.",
+      "body": "Big tickets booked weeks ahead, with plenty of time to read reviews."
+    },
+    {
+      "type": "point",
+      "headline": "Couriers and logistics.",
+      "body": "Every late parcel is a reviewer. A fake one blends right in."
+    },
+    {
+      "type": "point",
+      "headline": "Online courses and coaching.",
+      "body": "You're selling a promise. One review calling it empty is expensive."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

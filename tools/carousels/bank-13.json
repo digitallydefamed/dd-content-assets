@@ -1,0 +1,43 @@
+{
+  "id": "bank-13",
+  "platform": "Google",
+  "topic": "Who it hurts most",
+  "tab": "Google · 13",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Five kinds of business where one fake Google review hurts most"
+    },
+    {
+      "type": "point",
+      "headline": "Restaurants and cafés.",
+      "body": "The choice is made on the map in seconds, often standing on the street."
+    },
+    {
+      "type": "point",
+      "headline": "Dental and medical clinics.",
+      "body": "Trust is the product. Nobody books a procedure with the 3.9."
+    },
+    {
+      "type": "point",
+      "headline": "Trades and home services.",
+      "body": "One job can be worth thousands, so one lost inquiry can cost a week's margin."
+    },
+    {
+      "type": "point",
+      "headline": "Salons and studios.",
+      "body": "Smaller review counts, so a single 1-star moves the average further."
+    },
+    {
+      "type": "point",
+      "headline": "Lawyers, agents and advisers.",
+      "body": "Your name is the brand. A review about you follows you everywhere."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

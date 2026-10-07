@@ -1,0 +1,47 @@
+{
+  "id": "bank-38",
+  "platform": "Reddit",
+  "topic": "Your name is in a thread",
+  "tab": "Reddit · 05",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Your name is in a Reddit thread. Here's what to do first."
+    },
+    {
+      "type": "point",
+      "headline": "Don't reply under your own name.",
+      "body": "It confirms who you are and keeps the thread alive."
+    },
+    {
+      "type": "point",
+      "headline": "Screenshot everything.",
+      "body": "Post, comments, usernames, links and dates. Threads get edited and deleted."
+    },
+    {
+      "type": "point",
+      "headline": "Don't create accounts to defend yourself.",
+      "body": "Alt accounts break Reddit's rules and get spotted fast."
+    },
+    {
+      "type": "point",
+      "headline": "Posting someone's personal information breaks Reddit's rules.",
+      "body": "Addresses, phone numbers, workplaces."
+    },
+    {
+      "type": "point",
+      "headline": "Don't contact the poster.",
+      "body": "It almost always ends up as the next post."
+    },
+    {
+      "type": "point",
+      "headline": "Then send it to us."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}

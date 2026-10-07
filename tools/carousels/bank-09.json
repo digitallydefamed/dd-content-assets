@@ -1,0 +1,48 @@
+{
+  "id": "bank-09",
+  "platform": "Google",
+  "topic": "Questions before hiring",
+  "tab": "Google · 09",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "The questions owners ask us before they hire us"
+    },
+    {
+      "type": "point",
+      "headline": "“Is this legal?”",
+      "body": "Yes. We work within each platform's own policies and reporting process. No hacking, no insiders, no fake accounts."
+    },
+    {
+      "type": "point",
+      "headline": "“Do I pay if it doesn't come down?”",
+      "body": "No. You pay once it's gone."
+    },
+    {
+      "type": "point",
+      "headline": "“What do I need to do?”",
+      "body": "Send the link and sign the agreement. Our specialists handle the rest."
+    },
+    {
+      "type": "point",
+      "headline": "“How long does it take?”",
+      "body": "The platform sets the pace, not us. We keep watching until it's resolved and tell you the outcome."
+    },
+    {
+      "type": "point",
+      "headline": "“Is it confidential?”",
+      "body": "Yes. We never name clients, and we only share a case with written consent."
+    },
+    {
+      "type": "point",
+      "headline": "“What does it cost?”",
+      "body": "One fixed fee per review, agreed in writing before we start. No retainer."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}
