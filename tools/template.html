@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DD carousel template</title>
+<style>
+  /* Fonts are loaded from tools/fonts so renders work offline. */
+  @font-face { font-family: "DD Serif"; src: url("fonts/Fraunces-SemiBold.ttf") format("truetype"); font-weight: 600; }
+  @font-face { font-family: "DD Sans"; src: url("fonts/Inter-Regular.otf") format("opentype"); font-weight: 400; }
+  @font-face { font-family: "DD Sans"; src: url("fonts/Inter-Medium.otf") format("opentype"); font-weight: 500; }
+  @font-face { font-family: "DD Sans"; src: url("fonts/Inter-SemiBold.otf") format("opentype"); font-weight: 600; }
+
+  :root {
+    --paper: #F3F0E8;
+    --ink: #15171A;
+    --body: #2E3136;
+    --muted: #55585E;
+    --red: #FF3F44;
+    --paper-dim: #CFCAC0;
+    --margin: 96px;
+    --serif: "DD Serif", serif;
+    --sans: "DD Sans", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #777; }
+
+  .slide {
+    position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--paper); color: var(--ink);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  .slide.dark { background: var(--ink); color: var(--paper); }
+
+  /* Tab, top-left */
+  .tab {
+    position: absolute; left: var(--margin); top: 99px;
+    display: flex; align-items: center; gap: 15px;
+    font: 600 24px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .tab::before { content: ""; width: 18px; height: 18px; background: var(--red); flex: none; }
+  .hook .tab { color: var(--ink); font-size: 26px; }
+  .hook .tab::before { width: 20px; height: 20px; }
+  .dark .tab { color: var(--paper-dim); }
+
+  /* Footer */
+  .wordmark { position: absolute; left: var(--margin); bottom: 97px; height: 42px; }
+  .hook .wordmark { height: 52px; bottom: 97px; }
+  .swipe {
+    position: absolute; right: 100px; bottom: 103px;
+    font: 500 30px/1 var(--sans); letter-spacing: 0.06em; color: var(--ink);
+  }
+
+  .headline { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; }
+  .rule { background: var(--red); }
+
+  /* Hook: big headline from the top */
+  .hook .content { position: absolute; left: var(--margin); right: var(--margin); top: 236px; }
+  .hook .headline { font-size: 98px; line-height: 108px; }
+  .hook .rule { width: 180px; height: 14px; margin-top: 64px; }
+
+  /* Point: headline + optional body, centred vertically */
+  .point .content {
+    position: absolute; left: var(--margin); right: var(--margin); top: 180px; bottom: 200px;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .point .headline { font-size: 72px; line-height: 84px; }
+  .point .rule { width: 120px; height: 10px; margin-top: 50px; }
+  .point .body { margin-top: 50px; font: 400 44px/64px var(--sans); color: var(--body); }
+  .point .body p + p { margin-top: 24px; }
+
+  /* CTA: dark, mark + headline + button */
+  .cta .content { position: absolute; left: var(--margin); right: var(--margin); top: 280px; }
+  .cta .mark { width: 150px; display: block; }
+  .cta .headline { margin-top: 62px; font-size: 80px; line-height: 96px; color: var(--paper); }
+  .cta .button {
+    display: inline-block; margin-top: 66px; padding: 0 44px; height: 114px;
+    background: var(--red); color: #fff; border-radius: 6px;
+    font: 600 48px/114px var(--sans);
+  }
+  .cta .sub { margin-top: 60px; font: 400 40px/1.4 var(--sans); color: var(--paper-dim); }
+
+  /* Optional slide counter (off by default; the bank doesn't use one) */
+  .counter { position: absolute; right: 100px; bottom: 103px; font: 500 26px/1 var(--sans); color: var(--muted); letter-spacing: 0.06em; }
+  .dark .counter { color: var(--paper-dim); }
+</style>
+</head>
+<body>
+<div id="out"></div>
+<script>
+  // Called by render.py with the carousel spec. Builds one .slide per entry.
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+  function build(spec) {
+    const out = document.getElementById("out"); out.innerHTML = "";
+    const n = spec.slides.length;
+    spec.slides.forEach((s, i) => {
+      const el = document.createElement("div");
+      const dark = s.type === "cta";
+      el.className = `slide ${s.type}${dark ? " dark" : ""}`;
+      el.dataset.index = i + 1;
+      let html = `<div class="tab">${esc(spec.tab)}</div><div class="content">`;
+      if (s.type === "hook") {
+        html += `<h1 class="headline">${esc(s.headline)}</h1><div class="rule"></div>`;
+      } else if (s.type === "point") {
+        html += `<h2 class="headline">${esc(s.headline)}</h2><div class="rule"></div>`;
+        if (s.body) html += `<div class="body">${[].concat(s.body).map(p => `<p>${esc(p)}</p>`).join("")}</div>`;
+      } else if (s.type === "cta") {
+        html += `<img class="mark" src="assets/mark-red.png" alt="">`;
+        html += `<h2 class="headline">${esc(s.headline)}</h2>`;
+        html += `<div class="button">${esc(s.button)}</div>`;
+        if (s.sub) html += `<p class="sub">${esc(s.sub)}</p>`;
+      } else {
+        throw new Error(`Slide ${i + 1}: unknown type "${s.type}"`);
+      }
+      html += `</div>`;
+      html += `<img class="wordmark" src="assets/${dark ? "wordmark-paper" : "wordmark-ink"}.png" alt="Digitally Defamed.">`;
+      if (s.type === "hook") html += `<div class="swipe">Swipe &rarr;</div>`;
+      else if (spec.counter) html += `<div class="counter">${i + 1}/${n}</div>`;
+      el.innerHTML = html;
+      out.appendChild(el);
+    });
+  }
+
+  // Layout checks: every text block must sit inside the side margins and clear of the footer.
+  function check() {
+    const errors = [];
+    document.querySelectorAll(".slide").forEach(slide => {
+      const r = slide.getBoundingClientRect(), i = slide.dataset.index;
+      const footerTop = r.top + 1350 - 160;
+      slide.querySelectorAll(".headline, .body, .button, .sub").forEach(el => {
+        const b = el.getBoundingClientRect();
+        if (b.right > r.left + 1080 - 96 + 1) errors.push(`slide ${i}: ${el.className} runs past the right margin`);
+        if (b.bottom > footerTop) errors.push(`slide ${i}: ${el.className} runs into the footer`);
+        if (b.top < r.top + 150) errors.push(`slide ${i}: ${el.className} runs into the tab`);
+      });
+      const content = slide.querySelector(".point .content");
+      if (content && content.scrollHeight > content.clientHeight + 1) errors.push(`slide ${i}: text is too long for the slide`);
+    });
+    return errors;
+  }
+</script>
+</body>
+</html>
