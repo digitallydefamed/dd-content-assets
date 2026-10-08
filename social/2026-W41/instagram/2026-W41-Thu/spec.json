@@ -1,0 +1,43 @@
+{
+  "id": "bank-01",
+  "platform": "Google",
+  "topic": "What one fake 1-star costs",
+  "tab": "Google · 01",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "One fake 1-star. Here's what it's actually costing you."
+    },
+    {
+      "type": "point",
+      "headline": "Your rating is a filter, not a score.",
+      "body": "On Google Maps, customers can filter out every business below a star rating they choose, before they ever see your name."
+    },
+    {
+      "type": "point",
+      "headline": "Small profiles move fastest.",
+      "body": "Ten reviews averaging 4.6. Add one 1-star and you're at 4.3."
+    },
+    {
+      "type": "point",
+      "headline": "It doesn't go away on its own.",
+      "body": "It sits there every day, in front of everyone choosing between you and the place down the road."
+    },
+    {
+      "type": "point",
+      "headline": "Do the math on your own numbers.",
+      "body": "Average job value × inquiries lost per month. That's the monthly cost."
+    },
+    {
+      "type": "point",
+      "headline": "Removal is a one-off cost. The review is a recurring one.",
+      "body": "That's the comparison worth making."
+    },
+    {
+      "type": "cta",
+      "headline": "Send us the link. We'll tell you if it may have a case.",
+      "button": "DM the word REVIEW",
+      "sub": "You only pay once it's gone."
+    }
+  ]
+}
